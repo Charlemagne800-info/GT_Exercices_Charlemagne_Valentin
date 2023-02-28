@@ -7,31 +7,26 @@ import (
 )
 
 func main() {
-	// Initialisation du générateur de nombres aléatoires
-	rand.Seed(time.Now().UnixNano())
+	rand.Seed(time.Now().UnixNano()) // Initialisation du générateur de nombres aléatoires
 
-	// Demande du nombre d'allumettes
-	var n int
+	var n int // Demande du nombre d'allumettes
 	for n < 4 {
 		fmt.Print("Entrez le nombre d'allumettes (minimum 4) : ")
 		fmt.Scanln(&n)
 	}
 
-	// Détermination du premier joueur
-	player := rand.Intn(2) + 1
+	player := rand.Intn(2) + 1 // Détermination du premier joueur
 	fmt.Printf("Le joueur %d commence.\n", player)
 
 	// Boucle principale
 	for n > 0 {
-		// Affichage du nombre d'allumettes restantes
-		fmt.Printf("\n%d allumettes restantes :\n", n)
+		fmt.Printf("\n%d allumettes restantes :\n", n) // Affichage du nombre d'allumettes restantes
 		for i := 0; i < n; i++ {
-			fmt.Print("| ")
+			fmt.Print("| ") //Affichage graphique des allumettes
 		}
 		fmt.Println()
 
-		// Demande du nombre d'allumettes à prendre
-		var take int
+		var take int // Demande du nombre d'allumettes à prendre
 		maxTake := 3
 		if n < 3 {
 			maxTake = n

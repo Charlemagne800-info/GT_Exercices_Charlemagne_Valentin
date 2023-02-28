@@ -91,7 +91,7 @@ func main() {
 			fmt.Println("Erreur lors de l'écriture dans le fichier :", err)
 			return
 		}
-		fmt.Println("Contenu du fichier remplacé avec succès !")
+		fmt.Println("Contenu remplacé !")
 
 	default:
 		fmt.Println("Choix invalide.")
