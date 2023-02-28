@@ -1,0 +1,62 @@
+body {
+  background-color: gray;
+  scrollbar-color: #346abf white;
+  scrollbar-width: auto;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .card {
+    width: 300px;
+    background-color: #282727;
+    box-shadow: 0 0 10px rgba(103, 2, 2, 0.1);
+  }
+  
+  .card-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-title {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .card-description {
+    margin: 10px 0 0;
+    font-size: 1rem;
+    line-height: 1.2;
+    height: 3.6em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+p {
+  color: white;
+}
+
+h2 {
+  color: crimson;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(54, 53, 53);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #780a0a;
+}

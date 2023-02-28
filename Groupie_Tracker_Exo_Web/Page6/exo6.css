@@ -1,0 +1,35 @@
+body {
+  background-color: gray;
+  scrollbar-color: #346abf white;
+  scrollbar-width: auto;
+}
+
+.carousel {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+  }
+  
+  .carousel-item {
+    flex: 0 0 100%;
+    scroll-snap-align: center;
+  }
+  
+  .carousel-item img {
+    max-width: 500px;
+    min-height: 300px;
+    height: auto;
+    object-fit: cover;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: rgb(54, 53, 53);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #780a0a;
+  }
