@@ -4,7 +4,7 @@ body {
   scrollbar-width: auto;
 }
 
-.card-container {
+.card-section {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -22,7 +22,7 @@ body {
     height: auto;
   }
   
-  .card-content {
+  .card-contenu {
     padding: 20px;
   }
   

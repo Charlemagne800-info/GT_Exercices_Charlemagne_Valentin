@@ -8,17 +8,17 @@ body {
     position: relative;
   }
   
-  .carousel-items {
+  .carousel-section {
     display: flex;
     overflow-x: scroll;
     scroll-behavior: smooth;
   }
   
-  .carousel-item {
+  .carousel-contenu {
     flex: 0 0 100%;
   }
   
-  .carousel-item img {
+  .carousel-contenu img {
     max-width: 500px;
     height: auto;
     min-height: 300px;

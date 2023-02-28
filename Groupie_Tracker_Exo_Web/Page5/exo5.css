@@ -21,13 +21,14 @@ body {
     background-color: #1b1a1a;
     transform: translateX(-50%);
   }
+
   
-  .timeline-item {
+  .section {
     position: relative;
     margin-bottom: 100px;
   }
   
-  .timeline-item::before {
+  .section::before {
     content: "";
     position: absolute;
     top: 50%;
@@ -39,7 +40,7 @@ body {
     transform: translateY(-50%);
   }
   
-  .timeline-content {
+  .contenu {
     position: relative;
     max-width: 400px;
     padding: 20px;
@@ -47,13 +48,13 @@ body {
     border-radius: 5px;
   }
   
-  .timeline-content h3 {
+  .contenu h3 {
     font-size: 24px;
     font-weight: bold;
     margin-top: 0;
   }
   
-  .timeline-content p {
+  .contenu p {
     font-size: 16px;
     line-height: 1.5;
   }

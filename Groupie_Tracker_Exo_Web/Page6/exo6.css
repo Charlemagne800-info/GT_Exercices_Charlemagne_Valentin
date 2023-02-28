@@ -10,12 +10,12 @@ body {
     scroll-snap-type: x mandatory;
   }
   
-  .carousel-item {
+  .carousel-contenu {
     flex: 0 0 100%;
     scroll-snap-align: center;
   }
   
-  .carousel-item img {
+  .carousel-contenu img {
     max-width: 500px;
     min-height: 300px;
     height: auto;
